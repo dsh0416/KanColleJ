@@ -43,7 +43,7 @@ namespace KanColleJehad
             HttpHelper http = new HttpHelper();
             HttpItem item = new HttpItem()
             {
-                URL = "http://www.moejn.com/login.html",
+                URL = "http://gc.moejn.com/login.html",
                 Method = "POST",
                 Timeout = 100000,
                 ReadWriteTimeout = 30000,
@@ -52,7 +52,7 @@ namespace KanColleJehad
                 UserAgent = "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0",
                 Accept = "text/html, application/xhtml+xml, */*",
                 ContentType = "application/x-www-form-urlencoded",
-                Referer = "http://www.moejn.com/login.html",
+                Referer = "http://gc.moejn.com/login.html",
                 Postdata = "name="+ran.Next()+"&password="+ran.Next()+"&world=1&seccode="+txt_scd.Text+"&registersubmit=%E6%8F%90%E4%BA%A4",
                 //ResultType = ResultType.String,//返回数据类型，是Byte还是String
             };
